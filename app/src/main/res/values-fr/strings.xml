@@ -1,0 +1,64 @@
+<resources>
+    <!--AndroidManifest.xml-->
+    <string name="app_name">Horaires Air Côte d\'Ivoire</string>
+    <string name="title_activity_settings">Préférences</string>
+
+    <!--menu_main.xml-->
+    <string name="action_settings">Préférences</string>
+    <string name="action_map">Carte</string>
+    <string name="action_help">Aide</string>
+    <string name="action_about">A propos</string>
+
+    <!--menu schedulefragment.xml-->
+    <string name="action_refresh">Actualiser</string>
+
+    <!--menu detailfragment.xml-->
+    <string name="action_share">Partager</string>
+
+    <!--pref_general.xml-->
+    <!--Cities-->
+    <string name="pref_start_city_key">start_city</string>
+    <string name="pref_start_city_label">Ville de départ</string>
+    <string name="pref_end_city_key">end_city</string>
+    <string name="pref_end_city_label">Ville d\'arrivée</string>
+
+    <!--ChooseCityDialog.java-->
+    <string name="cancel">Annuler</string>
+
+    <!--fragment_detail.xml-->
+    <string name="title_activity_detail">Détails du vol</string>
+    <string name="flight">Vol No:</string>
+
+    <!--fragment_main.xml-->
+    <string name="home_activity">Accueil</string>
+    <string name="home_start_city_text">Ville de départ</string>
+    <string name="home_date_text">Date</string>
+    <string name="home_end_city_text">Ville d\'arrivée</string>
+    <string name="period_of">Période du</string>
+    <string name="period_to">à</string>
+    <string name="home_synchronizing">Synchronisation des données</string>
+
+    <!--list_item_schedule.xml-->
+    <string name="calendar">calendrier</string>
+    <string name="list_item_fly">Vol N°</string>
+    <string name="Route_bar">Route</string>
+
+    <!--activity_about.xml-->
+    <string name="title_activity_about">A propos</string>
+    <string name="versionName">Version 1.0</string>
+    <string name="about_copyright_app">Cette application est indépendante et n\'est pas la propriété de la compagny Air Côte d\'Ivoire.</string>
+
+    <!--activity_help.xml-->
+    <string name="title_activity_help">Aide</string>
+    <string name="help_title_synchronize">Faire une synchronisation</string>
+    <string name="help_synchronize">Dans la barre d\'action, en haut, cliquer sur l\'icone actualiser</string>
+    <string name="help_title_city">Changer de ville</string>
+    <string name="help_city">Cliquer sur l\'icone de la ville de départ ou d\'arrivée et choisir la ville</string>
+    <string name="help_title_change_date">Changer la date</string>
+    <string name="help_change_date">Cliquer sur l\'icone de la date et sélectionner une date, ensuite cliquer sur le bouton OK</string>
+    <string name="help_title_reset_date">Effacer la date</string>
+    <string name="help_reset_date">Cliquer sur l\'icone de la date, ensuite cliquer sur le bouton reset</string>
+    <string name="help_title_default_city">Changer la ville de départ ou d\'arrivée par defaut</string>
+    <string name="help_default_city">Dans la barre de titre, en haut, cliquer sur le menu ou cliquer sur le bouton menu de votre appareil, ensuite cliquer sur le menu Préférence et choisissez la ville de départ et d\'arrivée par défaut que vous voulez</string>
+
+</resources>

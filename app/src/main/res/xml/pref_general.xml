@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <!--start city-->
+    <ListPreference
+        android:key="@string/pref_start_city_key"
+        android:title="@string/pref_start_city_label"
+        android:defaultValue="@string/pref_city_abidjan"
+        android:entryValues="@array/pref_city_values"
+        android:entries="@array/pref_city_options"
+        />
+
+    <!--end city-->
+    <ListPreference
+        android:key="@string/pref_end_city_key"
+        android:title="@string/pref_end_city_label"
+        android:defaultValue="@string/pref_city_conakry"
+        android:entryValues="@array/pref_city_values"
+        android:entries="@array/pref_city_options"
+        />
+
+</PreferenceScreen>

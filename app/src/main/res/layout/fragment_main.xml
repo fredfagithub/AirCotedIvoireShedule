@@ -1,0 +1,274 @@
+<!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--android:paddingTop="@dimen/activity_vertical_margin"-->
+<!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fredericfagla.android.horaireaircotedivoire.MainActivity.SheduleFragment"
+    android:id="@+id/layoutHolder"
+    android:background="@drawable/border_without_top">
+
+    <!-- I integrate my header.xml file here-->
+
+    <!--<include android:id="@+id/header"-->
+        <!--layout="@layout/header"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="fill_parent"/>-->
+
+    <LinearLayout
+        android:id="@+id/topSection"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff029f61"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:paddingTop="5dp">
+
+        <!--Home title-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/home_activity"
+            android:id="@+id/textView2"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:paddingLeft="24dp"
+            android:paddingRight="1dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!--ImageButtons link for choose start city, flight date, arrival city-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton_startCity"
+                android:src="@drawable/ic_action_start"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:contentDescription="@string/home_start_city" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton_dateTime"
+                android:src="@drawable/ic_action_datetime"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:contentDescription="@string/home_date"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton_endCity"
+                android:src="@drawable/ic_action_end"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:contentDescription="@string/home_end_city"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_start_city_text"
+                android:id="@+id/textView"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_date_text"
+                android:id="@+id/textView7"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_end_city_text"
+                android:id="@+id/textView8"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <!--start city value, arrival city value-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_startCity"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_date"
+                android:id="@+id/textView_dateTime"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_endCity"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/middleSection"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDDDDD"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:padding="3dp">
+            <!--android:background="#DDDDDD"-->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <!--Flights period value-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/period_of"
+                    android:id="@+id/textView9"
+                    android:textColor="#363636"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text=""
+                    android:id="@+id/textView_start_date_period"
+                    android:textColor="#363636"
+                    android:textSize="15sp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/period_to"
+                    android:id="@+id/textView10"
+                    android:textColor="#363636"
+                    android:textSize="15sp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text=""
+                    android:id="@+id/textView_end_date_period"
+                    android:textColor="#363636"
+                    android:textSize="15sp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="1dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomSection"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffeeeeee"
+            android:id="@+id/synchronizinglinearlayout"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="right"
+            android:visibility="invisible"
+            android:layout_marginRight="1dp">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/home_synchronizing"
+                android:id="@+id/textView3"
+                android:paddingLeft="7dp"
+                android:paddingRight="1dp"
+                android:textColor="#363636"
+                android:layout_gravity="center_vertical"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <!--Shedule items-->
+        <ListView
+            style="@style/SheduleListStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_shedule"
+            android:paddingLeft="1dp"
+            android:paddingRight="5dp"
+            android:choiceMode="singleChoice"
+            android:clickable="false"
+            android:layout_marginTop="-20dp" />
+    </LinearLayout>
+
+</LinearLayout>

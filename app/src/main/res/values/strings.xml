@@ -1,0 +1,149 @@
+<resources>
+    <!--AndroidManifest.xml-->
+    <string name="app_name">Air Côte d\'Ivoire Schedules</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--menu_main.xml-->
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+
+    <!--menu schedulefragment.xml-->
+    <string name="action_refresh">Refresh</string>
+
+    <!--menu detailfragment.xml-->
+    <string name="action_share">Share</string>
+
+    <!--pref_general.xml-->
+    <!--Cities-->
+    <string name="pref_start_city_key">start_city</string>
+    <string name="pref_start_city_label">Start city</string>
+    <string name="pref_end_city_key">end_city</string>
+    <string name="pref_end_city_label">End city</string>
+
+    <string name="pref_city_abidjan">Abidjan</string>
+    <string name="pref_city_accra">Accra</string>
+    <string name="pref_city_bamako">Bamako</string>
+    <string name="pref_city_brazzaville">Brazzaville</string>
+    <string name="pref_city_conakry">Conakry</string>
+    <string name="pref_city_cotonou">Cotonou</string>
+    <string name="pref_city_dakar">Dakar</string>
+    <string name="pref_city_douala">Douala</string>
+    <string name="pref_city_freetown">Freetown</string>
+    <string name="pref_city_kinshasa">Kinshasa</string>
+    <string name="pref_city_libreville">Libreville</string>
+    <string name="pref_city_lome">Lomé</string>
+    <string name="pref_city_monrovia">Monrovia</string>
+    <string name="pref_city_ndjamena">Ndjamena</string>
+    <string name="pref_city_niamey">Niamey</string>
+    <string name="pref_city_Ouagadougou">Ouagadougou</string>
+    <string name="pref_city_pointe_noire">Pointe-noire</string>
+    <string name="pref_city_yaoude">Yaoundé</string>
+
+    <string-array name="pref_city_values">
+        <item>@string/pref_city_abidjan</item>
+        <item>@string/pref_city_accra</item>
+        <item>@string/pref_city_bamako</item>
+        <item>@string/pref_city_brazzaville</item>
+        <item>@string/pref_city_conakry</item>
+        <item>@string/pref_city_cotonou</item>
+        <item>@string/pref_city_dakar</item>
+        <item>@string/pref_city_douala</item>
+        <item>@string/pref_city_freetown</item>
+        <item>@string/pref_city_kinshasa</item>
+        <item>@string/pref_city_libreville</item>
+        <item>@string/pref_city_lome</item>
+        <item>@string/pref_city_monrovia</item>
+        <item>@string/pref_city_ndjamena</item>
+        <item>@string/pref_city_niamey</item>
+        <item>@string/pref_city_Ouagadougou</item>
+        <item>@string/pref_city_pointe_noire</item>
+        <item>@string/pref_city_yaoude</item>
+
+    </string-array>
+    <string-array name="pref_city_options">
+        <item>@string/pref_city_abidjan</item>
+        <item>@string/pref_city_accra</item>
+        <item>@string/pref_city_bamako</item>
+        <item>@string/pref_city_brazzaville</item>
+        <item>@string/pref_city_conakry</item>
+        <item>@string/pref_city_cotonou</item>
+        <item>@string/pref_city_dakar</item>
+        <item>@string/pref_city_douala</item>
+        <item>@string/pref_city_freetown</item>
+        <item>@string/pref_city_kinshasa</item>
+        <item>@string/pref_city_libreville</item>
+        <item>@string/pref_city_lome</item>
+        <item>@string/pref_city_monrovia</item>
+        <item>@string/pref_city_ndjamena</item>
+        <item>@string/pref_city_niamey</item>
+        <item>@string/pref_city_Ouagadougou</item>
+        <item>@string/pref_city_pointe_noire</item>
+        <item>@string/pref_city_yaoude</item>
+    </string-array>
+
+    <!--ChooseCityDialog.java-->
+    <string name="cancel">Cancel</string>
+
+    <!--fragment_detail.xml-->
+    <string name="company_name">Air Côte d\'Ivoire</string>
+    <string name="title_activity_detail">Flight details</string>
+    <string name="icon_start_airline">start airline</string>
+    <string name="icon_airline">airline logo</string>
+    <string name="icon_arrival_airline">arrival airline</string>
+    <string name="flight">Flight No:</string>
+    <string name="num_flight"></string>
+    <string name="date_schedule"></string>
+    <string name="start_city_value">Abidjan</string>
+    <string name="start_time_value">09:40</string>
+    <string name="end_city_text">Conakry</string>
+    <string name="end_time_value">10:40</string>
+    <string name="duration_text">Duration</string>
+    <string name="duration_value"></string>
+
+    <!--fragment_main.xml-->
+    <string name="home_activity">Home</string>
+    <string name="home_start_city">Abidjan</string>
+    <string name="home_date"></string>
+    <string name="home_end_city">Conakry</string>
+    <string name="home_start_city_text">Start City</string>
+    <string name="home_date_text">Date</string>
+    <string name="home_end_city_text">Arrival City</string>
+    <string name="period_of">Period of</string>
+    <string name="period_to">to</string>
+    <string name="home_start_period">03/07/2015</string>
+    <string name="home_end_period">03/08/2015</string>
+    <string name="home_synchronizing">Synchronizing Data</string>
+
+    <!--list_item_schedule.xml-->
+    <string name="calendar">calendar</string>
+    <string name="list_item_day_textview">MERCREDI</string>
+    <string name="list_item_day_number_textview">11</string>
+    <string name="list_item_month_textview">SEPT</string>
+    <string name="list_item_year_textview">2014</string>
+    <string name="list_item_start_time_textview">09:40</string>
+    <string name="list_item_fly">Flight N°</string>
+    <string name="Route_bar">Route</string>
+    <string name="list_item_num_aitline_textview">HF 500</string>
+    <string name="list_item_arrival_time_textview">10:40</string>
+
+    <!--activity_about.xml-->
+    <string name="title_activity_about">About</string>
+    <string name="versionName">Version 1.0</string>
+    <string name="about_copyright_app">This app is independent and is not the property of Air Côte d\'Ivoire Compagny.</string>
+
+    <!--activity_help.xml-->
+    <string name="title_activity_help">Help</string>
+    <string name="help_title_synchronize">Doing synchronizing</string>
+    <string name="help_synchronize">On the actionBar, on top, click on refresh icon</string>
+    <string name="help_title_city">Change City</string>
+    <string name="help_city">Click on start or arrival flight icon and choose city</string>
+    <string name="help_title_change_date">Change date</string>
+    <string name="help_change_date">Click on date icon and choose date, after click on OK button</string>
+    <string name="help_title_reset_date">Reset date</string>
+    <string name="help_reset_date">Click on date icon and click on reset button</string>
+    <string name="help_title_default_city">Change start or arrival default city</string>
+    <string name="help_default_city">On the actionBar, on top, click on menu or click on your phone button menu, after click on Settings menu and choose start and arrival default city you want</string>
+
+</resources>

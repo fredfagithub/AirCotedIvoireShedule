@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Change border color-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:left="0dp" android:right="0dp"  android:top="-10dp" android:bottom="0dp">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#FFFFFF"/>
+            <stroke android:width="4dp" android:color="#FF029F61" />
+        </shape>
+    </item>
+</layer-list>

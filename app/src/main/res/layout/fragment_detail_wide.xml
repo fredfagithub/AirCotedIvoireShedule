@@ -1,0 +1,194 @@
+<!-- Master layout. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/logo_app_icon"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#00000000"
+                    android:contentDescription="@string/icon_airline"
+                    android:layout_marginTop="-10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/company_name"
+                    android:id="@+id/airline_textView"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/date_schedule"
+                        android:id="@+id/date_shedule_textView"
+                        android:textSize="15sp"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/flight"
+                        android:id="@+id/textView5"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/num_flight"
+                        android:id="@+id/flight_numb_textView"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="1dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="center_horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView5"
+                        android:src="@drawable/ic_action_start_detail"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:contentDescription="@string/icon_start_airline" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/home_start_city_text"
+                        android:id="@+id/textView24"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:paddingRight="1dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/start_city_value_textView"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="1dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/start_time_textView"
+                        android:paddingLeft="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:paddingRight="1dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="center_horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView6"
+                        android:src="@drawable/ic_action_end_detail"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:contentDescription="@string/icon_arrival_airline" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/home_end_city_text"
+                        android:id="@+id/textView27"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:paddingRight="1dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/arrival_city_value_textView"
+                        android:paddingLeft="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:paddingRight="1dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/arrival_time_textView"
+                        android:paddingLeft="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:paddingRight="1dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

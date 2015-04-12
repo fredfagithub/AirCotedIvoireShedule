@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="SheduleListStyle">
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+
+</resources>

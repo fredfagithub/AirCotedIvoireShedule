@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for shedules list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/touch_selector"
+    android:paddingRight="5dp"
+    android:paddingLeft="1dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:background="#ffeeeeee">
+
+        <!--Date logo-->
+        <ImageView
+            android:id="@+id/icon_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_calendar"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/calendar" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="1dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!--In the daytime value in letter-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/list_item_day_textview"
+                    android:id="@+id/list_item_day_textview"
+                    android:textColor="#ff000000"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!--In the daytime value in figure-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/list_item_day_number_textview"
+                    android:id="@+id/list_item_day_number_textview"
+                    android:textSize="24sp"
+                    android:textColor="#ff000000" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--Flight month value, flight year value-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/list_item_month_textview"
+                        android:id="@+id/list_item_month_textview"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/list_item_year_textview"
+                        android:id="@+id/list_item_year_textview"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/shedule_id"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp">
+
+        <!--Start time value-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/list_item_start_time_textview"
+            android:id="@+id/list_item_start_time_textView"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <!--Flight number value-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/list_item_fly"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/bar_imageView"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff848484"
+                android:contentDescription="@string/Route_bar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/list_item_num_aitline_textview"
+                android:id="@+id/list_item_Num_Airline_textView"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!--Arrival time value-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/list_item_arrival_time_textview"
+            android:id="@+id/list_item_arrival_time_textView"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
