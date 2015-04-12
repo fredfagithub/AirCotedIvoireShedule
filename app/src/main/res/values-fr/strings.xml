@@ -22,26 +22,69 @@
     <string name="pref_end_city_key">end_city</string>
     <string name="pref_end_city_label">Ville d\'arrivée</string>
 
+    <string name="pref_city_abidjan">Abidjan</string>
+    <string name="pref_city_accra">Accra</string>
+    <string name="pref_city_bamako">Bamako</string>
+    <string name="pref_city_brazzaville">Brazzaville</string>
+    <string name="pref_city_conakry">Conakry</string>
+    <string name="pref_city_cotonou">Cotonou</string>
+    <string name="pref_city_dakar">Dakar</string>
+    <string name="pref_city_douala">Douala</string>
+    <string name="pref_city_freetown">Freetown</string>
+    <string name="pref_city_kinshasa">Kinshasa</string>
+    <string name="pref_city_libreville">Libreville</string>
+    <string name="pref_city_lome">Lomé</string>
+    <string name="pref_city_monrovia">Monrovia</string>
+    <string name="pref_city_ndjamena">Ndjamena</string>
+    <string name="pref_city_niamey">Niamey</string>
+    <string name="pref_city_Ouagadougou">Ouagadougou</string>
+    <string name="pref_city_pointe_noire">Pointe-noire</string>
+    <string name="pref_city_yaoude">Yaoundé</string>
+
     <!--ChooseCityDialog.java-->
     <string name="cancel">Annuler</string>
 
     <!--fragment_detail.xml-->
+    <string name="company_name">Air Côte d\'Ivoire</string>
     <string name="title_activity_detail">Détails du vol</string>
+    <string name="icon_start_airline">Départ</string>
+    <string name="icon_airline">logo compagnie</string>
+    <string name="icon_arrival_airline">Arrivée</string>
     <string name="flight">Vol No:</string>
+    <string name="num_flight"></string>
+    <string name="date_schedule"></string>
+    <string name="start_city_value">Abidjan</string>
+    <string name="start_time_value">09:40</string>
+    <string name="end_city_text">Conakry</string>
+    <string name="end_time_value">10:40</string>
+    <string name="duration_text">Durée</string>
+    <string name="duration_value"></string>
 
     <!--fragment_main.xml-->
     <string name="home_activity">Accueil</string>
+    <string name="home_start_city">Abidjan</string>
+    <string name="home_date"></string>
+    <string name="home_end_city">Conakry</string>
     <string name="home_start_city_text">Ville de départ</string>
     <string name="home_date_text">Date</string>
     <string name="home_end_city_text">Ville d\'arrivée</string>
     <string name="period_of">Période du</string>
     <string name="period_to">à</string>
+    <string name="home_start_period">03/07/2015</string>
+    <string name="home_end_period">03/08/2015</string>
     <string name="home_synchronizing">Synchronisation des données</string>
 
     <!--list_item_schedule.xml-->
     <string name="calendar">calendrier</string>
+    <string name="list_item_day_textview">MERCREDI</string>
+    <string name="list_item_day_number_textview">11</string>
+    <string name="list_item_month_textview">SEPT</string>
+    <string name="list_item_year_textview">2014</string>
+    <string name="list_item_start_time_textview">09:40</string>
     <string name="list_item_fly">Vol N°</string>
     <string name="Route_bar">Route</string>
+    <string name="list_item_num_aitline_textview">HF 500</string>
+    <string name="list_item_arrival_time_textview">10:40</string>
 
     <!--activity_about.xml-->
     <string name="title_activity_about">A propos</string>
